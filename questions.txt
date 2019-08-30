@@ -1,6 +1,7 @@
-for(int i=0;i<togglebagtabs.length;i++)
+﻿for(int i=0;i<togglebagtabs.length;i++)
 {
   int index = i;
   uihelp.uiregistertoggleOnClick(togglebagtabs[i].gameobject, (bool value)=>OnToggleBagsValueChanged(index,value));
 }
-??Ϊɶ
+??
+解决：https://www.xuebuyuan.com/130945.html
